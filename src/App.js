@@ -1,4 +1,5 @@
 import AboutUs from "./components/pages/AboutUs";
+import Collections from "./components/pages/Collections";
 import Header from "./components/pages/Header";
 import NFTCategories from "./components/pages/NFTCategories";
 import Presentation from "./components/pages/Presentation";
@@ -12,6 +13,7 @@ function App() {
         <Presentation/>
         <AboutUs/>
         <NFTCategories/>
+        <Collections/>
       </div>  
     </LanguageProvider>
     
