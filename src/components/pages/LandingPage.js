@@ -1,8 +1,11 @@
 import {
     Header,
     Ul,
-    Icon
+    Icon,
+    LanguageButton
 } from '../styles/LandingPage.style.js';
+
+import LanguageIcon from '../images/Header/Language.svg'
 
 export default function LandingPage(){
 
@@ -17,6 +20,9 @@ export default function LandingPage(){
                     <li>Market</li>
                     <li>Suport</li>
                 </Ul>
+                <LanguageButton>
+                    <img src={LanguageIcon}/>
+                </LanguageButton>
             </Header>
         </>
     )

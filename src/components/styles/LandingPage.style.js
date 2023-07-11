@@ -27,3 +27,14 @@ export const Icon = styled.i`
     height: 40px;
     background-image: url(${icon});
 `
+
+export const LanguageButton = styled.button`    
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+
+    img{
+        width: 15px;
+        height: 15px;
+    }
+`
