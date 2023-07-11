@@ -4,7 +4,7 @@ import {
     Ul,
     Icon,
     LanguageButton
-} from '../styles/Header.js';
+} from '../styles/Header.style.js';
 import { LanguageContext } from '../../language.context.js';
 
 import LanguageIcon from '../images/Header/Language.svg'

@@ -9,7 +9,7 @@ import {
     Subtitle,
     SeeMoreButton,
     LetsGoButton
-} from '../styles/Presentation';
+} from '../styles/Presentation.style';
 import { LanguageContext } from '../../language.context.js';
 
 import Arrow from '../images/Presentation/Arrow.svg';
