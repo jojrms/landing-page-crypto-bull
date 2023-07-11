@@ -1,5 +1,6 @@
 import {
     Header,
+    Ul,
     Icon
 } from '../styles/LandingPage.style.js';
 
@@ -9,13 +10,13 @@ export default function LandingPage(){
         <>
             <Header>
                 <Icon/>
-                <ul>
+                <Ul>
                     <li>Discover</li>
                     <li>About Us</li>
                     <li>Community</li>
                     <li>Market</li>
                     <li>Suport</li>
-                </ul>
+                </Ul>
             </Header>
         </>
     )
