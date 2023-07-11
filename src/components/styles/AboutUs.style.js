@@ -5,7 +5,8 @@ export const Background = styled.section`
     background-image: linear-gradient(to left, #121212, #171717);
     padding: 100px;
     display: grid;
-    grid-template-columns: auto 55%;
+    grid-template-columns: auto auto;
+    gap: 100px;
     align-items: center;
 `
 
