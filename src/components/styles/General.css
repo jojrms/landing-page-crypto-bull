@@ -9,12 +9,12 @@ body, .App, #root{
     color: white;
 }
 .App, #root{
-    width: initial;
+    width: calc(100% - 30px);
 }
 
 body{
     width: calc(100% - 60px);
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 
 body *{
@@ -32,4 +32,8 @@ button{
 button, img{
     background-color: transparent;
     border: none;
+}
+
+section, span{
+    display: block;
 }

@@ -5,6 +5,7 @@ export const HeaderComponent = styled.header`
     width: calc(100% - 90px);
     display: grid;
     gap: 30px;
+    padding-top: 30px;
     grid-template-columns: min-content auto auto;
     align-items: center;
     position: fixed;
