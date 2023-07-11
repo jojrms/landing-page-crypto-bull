@@ -3,12 +3,14 @@ import icon from '../images/logo.svg';
 
 export const HeaderComponent = styled.header`
     width: calc(100% - 90px);
+    margin-left: -30px;
     display: grid;
     gap: 30px;
-    padding-top: 30px;
+    padding: 30px 60px 0px 30px;
     grid-template-columns: min-content auto auto;
     align-items: center;
     position: fixed;
+    background-image: linear-gradient(to bottom, #121212, #121212d1, transparent);
 `
 
 export const Ul = styled.ul`
