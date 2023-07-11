@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import {
     Background,
     BullsImageGrid,
+    GradientBlur,
     TextBackground,
     StartingText,
     Title,
@@ -18,7 +19,10 @@ export default function Presentation(){
 
     return(
         <Background>
-            <BullsImageGrid/>
+            <BullsImageGrid>
+                <GradientBlur/>
+            </BullsImageGrid>
+
             <TextBackground>
                 <StartingText>{translations.Presentation.ConnectWithUs}</StartingText>
                 <Title>{translations.Presentation.Title}</Title>

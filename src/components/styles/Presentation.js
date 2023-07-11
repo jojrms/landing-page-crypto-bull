@@ -13,6 +13,11 @@ export const BullsImageGrid = styled.span`
     background-image: url(${CryptoBullsImage});
     margin-left: -95px;
 `
+export const GradientBlur = styled.span`
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #121212, #121212d1, transparent);
+`
 
 export const TextBackground = styled.span`
     width: fit-content;
