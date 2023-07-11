@@ -1,9 +1,9 @@
 {
     "Header": {
-        "Discover": "Discover",
-        "AboutUs": "About Us",
-        "Community": "Community",
-        "Market": "Market",
-        "Support": "Support"    
+        "Discover": "Explorar",
+        "AboutUs": "Sobre Nós",
+        "Community": "Comunidade",
+        "Market": "Loja",
+        "Support": "Suporte"    
     }
 }
