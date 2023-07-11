@@ -5,5 +5,12 @@
         "Community": "Comunidade",
         "Market": "Loja",
         "Support": "Suporte"    
+    },
+    "Presentation": {
+        "ConnectWithUs": "Conecte-se conosco",
+        "Title": "Explore, colecione e encontre nfts em um mundo de possibilidades.",
+        "Subtitle": "Navegue por um universo de opções, junte-se a uma comunidade e torne-se o maior",
+        "SeeMoreButton": "Ver Mais Sobre",
+        "LetsGoButton": "Vamos Começar"
     }
 }
