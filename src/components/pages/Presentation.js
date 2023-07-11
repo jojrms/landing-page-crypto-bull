@@ -20,7 +20,7 @@ export default function Presentation(){
     return(
         <Background>
             <BullsImageGrid>
-                <GradientBlur/>
+                {/* <GradientBlur/> */}
             </BullsImageGrid>
 
             <TextBackground>

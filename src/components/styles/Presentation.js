@@ -1,17 +1,22 @@
 import styled from 'styled-components';
 
-import CryptoBullsImage from '../images/Presentation/CryptoBulls.png'
+import CryptoBullsImage from '../images/Presentation/CryptoBulls.png';
+import BallsBlur from '../images/Presentation/Balls.svg';
 
 export const Background = styled.section`
     width: 100%;
+    margin-left: -30px;
+    padding-right: 60px;
     min-height: 650px;
     display: grid;
     grid-template-columns: 505px auto;
+    background-image: url(${BallsBlur});
+    background-size: cover;
 `
 
 export const BullsImageGrid = styled.span`
     background-image: url(${CryptoBullsImage});
-    margin-left: -95px;
+    margin-left: -35px;
 `
 export const GradientBlur = styled.span`
     width: 100%;
