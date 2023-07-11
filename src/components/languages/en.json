@@ -15,5 +15,9 @@
     },
     "AboutUs": {
         "Title": "Our Journey"
+    },
+    "NFTCategories": {
+        "Title": "We NFT Categories",
+        "InputPlaceholder": "What are you looking for now?"
     }
 }

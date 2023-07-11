@@ -24,9 +24,12 @@ body section{
 }
 
 button{
-    font-family: Poppins;
     cursor: pointer;
     color: white;
+}
+
+button, input{
+    font-family: Poppins;
 }
 
 button, img{

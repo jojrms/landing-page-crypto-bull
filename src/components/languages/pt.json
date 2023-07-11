@@ -15,5 +15,10 @@
     },
     "AboutUs": {
         "Title": "Nossa jornada"
+    },
+    "NFTCategories": {
+        "Title": "Nossa categoria de NFT's",
+        "InputPlaceholder": "O que você está buscando agora?"
+
     }
 }
