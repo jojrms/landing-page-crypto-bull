@@ -4,19 +4,20 @@ import CryptoBullsImage from '../images/Presentation/CryptoBulls.png';
 import BallsBlur from '../images/Presentation/Balls.svg';
 
 export const Background = styled.section`
-    width: 100%;
-    margin-left: -30px;
-    padding-right: 60px;
+    width: calc(100% + 30px);
     min-height: 650px;
     display: grid;
-    grid-template-columns: 505px auto;
+    grid-template-columns: 45% auto;
     background-image: url(${BallsBlur});
     background-size: cover;
+    padding: 0px 30px 0px 0px;
+    overflow-y: hidden;
 `
 
 export const BullsImageGrid = styled.span`
     background-image: url(${CryptoBullsImage});
     margin-left: -35px;
+    background-size: cover;
 `
 export const GradientBlur = styled.span`
     width: 100%;

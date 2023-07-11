@@ -2,8 +2,7 @@ import styled from 'styled-components';
 import icon from '../images/logo.svg';
 
 export const HeaderComponent = styled.header`
-    width: calc(100% - 90px);
-    margin-left: -30px;
+    width: calc(100% - 60px);
     display: grid;
     gap: 30px;
     padding: 30px 60px 0px 30px;

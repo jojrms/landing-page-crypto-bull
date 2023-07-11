@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body, .App, #root{
+    width: 100%;
     height: 100%;
     margin: 0;
     position: absolute;
@@ -12,15 +13,14 @@ body, .App, #root{
     width: calc(100% - 30px);
 }
 
-body{
-    width: calc(100% - 60px);
-    padding: 0px 30px 30px 30px;
-}
-
 body *{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+body section{
+    padding: 0px 30px 30px 30px;
 }
 
 button{
