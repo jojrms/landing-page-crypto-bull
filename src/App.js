@@ -1,11 +1,11 @@
-import LandingPage from "./components/pages/LandingPage";
+import Header from "./components/pages/Header";
 import { LanguageProvider } from "./language.context";
 
 function App() {
   return (
     <LanguageProvider>
       <div className="App">
-        <LandingPage/>
+        <Header/>
       </div>  
     </LanguageProvider>
     

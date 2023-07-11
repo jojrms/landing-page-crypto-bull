@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import icon from '../images/logo.svg';
 
-export const Header = styled.header`
+export const HeaderComponent = styled.header`
     width: calc(100% - 90px);
     display: grid;
     gap: 30px;
