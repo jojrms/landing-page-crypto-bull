@@ -4,6 +4,7 @@ import Collections from "./components/pages/Collections";
 import Header from "./components/pages/Header";
 import NFTCategories from "./components/pages/NFTCategories";
 import Presentation from "./components/pages/Presentation";
+import TheBeatBull from "./components/pages/TheBeatBull";
 import { LanguageProvider } from "./language.context";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <NFTCategories/>
         <Collections/>
         <BrowsePossibilities/>
+        <TheBeatBull/>
       </div>  
     </LanguageProvider>
     

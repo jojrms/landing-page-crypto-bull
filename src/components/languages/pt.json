@@ -30,5 +30,11 @@
     },
     "Browse": {
         "Title": "Busque pelas possibilidades"
+    },
+    "TheBeatBull": {
+        "Days": "Dias",
+        "Hours": "Horas",
+        "Min": "Min",
+        "Sec": "Seg"
     }
 }
