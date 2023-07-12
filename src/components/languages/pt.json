@@ -19,6 +19,11 @@
     "NFTCategories": {
         "Title": "Nossa categoria de NFT's",
         "InputPlaceholder": "O que você está buscando agora?"
-
+    },
+    "Collections": {
+        "News": "Novas",
+        "Digital": "Digitais",
+        "NFTsCollections": "Coleções de NFTs",
+        "A2023Sept28": "2023, Set 28"
     }
 }
