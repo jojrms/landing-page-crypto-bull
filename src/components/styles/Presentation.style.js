@@ -45,14 +45,15 @@ export const StartingText = styled.h2`
 `
 export const Title = styled.h1`
     width: 75%;
-    font-size: 40px;
+    font-size: 3.5rem;
+    line-height: 55px;
     letter-spacing: .5px;
     text-align: end;
     font-weight: 600;
 `
 export const Subtitle = styled.p`
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 20px;
 `
 
 export const SeeMoreButton = styled.button`
