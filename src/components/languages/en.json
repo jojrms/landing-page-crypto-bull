@@ -36,5 +36,8 @@
         "Hours": "Hours",
         "Min": "Min",
         "Sec": "Sec"
+    },
+    "Questions": {
+        "Title": "Frequently Asked Questions"
     }
 }
