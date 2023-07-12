@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
+    width: 190px;
     height: 100%;
     display: grid;
     grid-template-rows: 70% auto;
@@ -12,7 +13,7 @@ export const Image = styled.span`
     height: 100%;
     border-radius: 20px;
     border: none;
-    background-size: 102%;
+    background-size: cover;
     display: grid;
 
     #spanUsername{

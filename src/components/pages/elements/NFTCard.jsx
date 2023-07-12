@@ -1,10 +1,15 @@
+import { useContext } from 'react';
 import {
     Card,
     Image,
     CryptoInfo
 } from '../../styles/NFTCard.style';
 
+import { LanguageContext } from '../../../language.context.js';
+
 export default function NFTCard({id, image, price, userPhoto, username, endingData}){
+
+    const { translations, language, changeLanguage } = useContext(LanguageContext);
 
     return(
         <Card>
@@ -19,11 +24,11 @@ export default function NFTCard({id, image, price, userPhoto, username, endingDa
 
                 <div>
                     <span>
-                        <h6>Price</h6> 
+                        <h6>{translations.Collections.Price}</h6> 
                         <p>{price} ETH</p>   
                     </span>
                     <span>
-                        <h6>Ending</h6>  
+                        <h6>{translations.Collections.Ending}</h6>  
                         <p>{endingData}</p>  
                     </span>
                 </div> 

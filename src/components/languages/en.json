@@ -24,6 +24,11 @@
         "News": "News",
         "Digital": "Digital",
         "NFTsCollections": "NFTs Collections",
-        "A2023Sept28": "2023, Sept 28"
+        "A2023Sept28": "2023, Sept 28",
+        "Price": "Price",
+        "Ending": "Ending"
+    },
+    "Browse": {
+        "Title": "Browse for possibilities"
     }
 }
