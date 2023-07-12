@@ -39,5 +39,10 @@
     },
     "Questions": {
         "Title": "Perguntas Frequentes"
+    },
+    "Community": {
+        "Title": "Entre para nossa comunidade",
+        "Subtitle": "Quer estar entre os melhores artistas de NFTs e participar do ranking semanal?",
+        "EnterYourEmailHere": "Insira seu email aqui"
     }
 }

@@ -1,5 +1,8 @@
 import { useContext } from 'react';
 import {
+    Title,
+} from '../styles/BrowsePossibilities.style';
+import {
     Background,
     TextBackground,
     ImageDiv,
